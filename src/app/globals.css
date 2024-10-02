@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 50%;
+  margin: auto;
+  border-color: black;
+  border-width: 10px;
+  padding: 5px;
+}
+
+
+.header {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  
+
+  
+}
+.personalInfo{
+  background-color: aqua;
+  color: white;
+  height: 300px;
+  width: 75%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border: 10px solid black;
+}
+
+.image{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  align-self: flex-end;
+}
+
+h1 {
+  font-size: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: bolder;
+}
+
+p , a {
+  padding-left: 20px;
+  font-weight: bolder;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.professionalSummary {
+  font-size: 15px;
+  text-align: justify;
+  padding-left: 0;
+  padding-top: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li {
+  list-style: square;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.educationStyle {
+  width: 77%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+
+.workHistory {
+  height: 500px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.tenure {
+  height: 500px;
+  width: 15%;
+
+}
+
+.designation {
+
+  height: 500px;
+  width: 65%;
+
+}
+.designationElement{
+
+  height: 10%;
+  width: 100%;
+  font-weight: bold;
+  padding-left: 20px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+
+
+}
+
+.logo {
+  height: 500px;
+  width: 100px;
+  
+}
+
+.roninLogo {
+  height: 500px;
+  width: 100px;
+  padding: 20px;
+}
+
+.listElementWorkHistory {
+  list-style: disc;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.workHistory2 {
+  height: 500px;
+  margin-top: 180px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+
+
+
+a:hover {
+  color: blue;
+  transition: 1s;
+}
+
